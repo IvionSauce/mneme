@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mneme"
+version = "0.8.0"
+description = "Your personal Muse of Memory, keeping a history of media playback events."
+
+[project.scripts]
+"mneme" = "mneme:run_mneme"
+
+[tool.setuptools]
+packages = ["mneme"]
